@@ -95,9 +95,9 @@ namespace SportsORM.Controllers
 
             // ***** Number 14
             ViewBag.CooperNoJosh = _context.Players
-            .Where(p => p.LastName == "Cooper")
-            .Where(p => p.FirstName != "Joshua")
-            .ToList();
+                .Where(p => p.LastName == "Cooper")
+                .Where(p => p.FirstName != "Joshua")
+                .ToList();
 
             // ***** Number 15
             ViewBag.AlexWyatt = _context.Players
